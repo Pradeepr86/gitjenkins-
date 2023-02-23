@@ -1,1 +1,13 @@
-hello 
+pipeline{
+agent any 
+     stages{
+      stage("hello") {
+                steps{
+                     stript{
+                     echo"hello"
+                     } 
+                   }
+                }
+            }
+          }
+
