@@ -3,7 +3,7 @@ agent any
      stages{
       stage("hello") {
                 steps{
-                     stript{
+                     script{
                      echo"hello"
                      } 
                    }
